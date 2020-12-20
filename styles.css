@@ -34,12 +34,32 @@ textarea {
     padding: 1rem;
 }
 
+#btnTranslate{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+    padding: 0.5rem 1rem;
+}
+
 .navigation{
     background-color: var(--primary-color);
     color: black;
     padding: 1rem;
     height: 60px;
     border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link{
+    color: black;
 }
 
 
