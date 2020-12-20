@@ -4,32 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana speak</title>
-    <style>
-        textarea {
-            width: 80%;
-            height: 10vh;
-            display: block;
-            margin: 1rem;
-            padding: 1rem;
-        }
-
-        #output {
-            border: 1px solid black;
-            height: 10vh;
-            width: 80%;
-            margin: 1rem;
-            padding: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1> talk banananaanananan</h1>
-    <textarea id="txtInput"
-        placeholder="put your sentence in English here and we will convert it to banana"></textarea>
-    <button id="btnTranslate">Translate</button>
+    <nav class="container navigation">
+        <div class="nav-brand">Alish Vagadiya</div>
+    </nav>
 
-    <div style="font-size: larger;"> Translated in banana</div>
-    <div id="divOutput"></div>
+    <div class="container container-center">
+        <h1> talk banananaanananan</h1>
+        <textarea id="txtInput"
+            placeholder="put your sentence in English here and we will convert it to banana"></textarea>
+        <button id="btnTranslate">Translate</button>
+
+        <div style="font-size: larger;"> Translated in banana</div>
+        <div id="divOutput"></div>
+    </div>
     <script src="app.js" type="text/javascript"></script>
+
+    <footer class="footer">
+        <div class="footer-heading">Social media presence </div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/alishvagadiya">github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/alishvagadiya">twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://linkedin.com/in/alishvagadiya">linkedin</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
